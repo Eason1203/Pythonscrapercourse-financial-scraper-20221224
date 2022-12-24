@@ -19,4 +19,4 @@ header = {'content-type': 'application/json',
 }
 
 response = requests.post(url,data = json.dumps(payload), headers=header)
-print(response.json()['RtData']['QuoteList']
+print(response.json()['RtData']['QuoteList'])
